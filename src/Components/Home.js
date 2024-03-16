@@ -1,6 +1,6 @@
 import React from 'react'
 import { PaperClipIcon } from '@heroicons/react/20/solid'
-import Resume from '../Files/Preetham_Resume.pdf'
+import Resume from '../Files/Resume_Preetham_MV.pdf'
 
 function Home() {
   return (
