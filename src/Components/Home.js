@@ -2,6 +2,7 @@ import React from 'react'
 import { PaperClipIcon } from '@heroicons/react/20/solid'
 import {useNavigate } from 'react-router-dom';
 import Resume from '../Files/Resume_Preetham_MV.pdf'
+import CoverLetter from '../Files/Cover_letter_preetham.pdf'
 
 function Home() {
   const navigate = useNavigate();
@@ -71,7 +72,7 @@ function Home() {
                       </div>
                     </div>
                     <div className="ml-4 flex-shrink-0">
-                      <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+                      <a href={CoverLetter} download={CoverLetter} className="font-medium text-indigo-600 hover:text-indigo-500">
                         Download
                       </a>
                     </div>
